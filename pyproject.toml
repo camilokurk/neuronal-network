@@ -1,19 +1,18 @@
 [project]
-name = "prueba-neuronal-network"
+name = "neuronal-network"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Camilo", email = "camilocatta@gmail.com" }
+    { name = "camilokurk", email = "camilocatta@gmail.com" }
 ]
 requires-python = ">=3.15"
 dependencies = [
-    "matplotlib>=3.11.2",
     "numpy>=2.5.4",
 ]
 
 [project.scripts]
-prueba-neuronal-network = "prueba_neuronal_network:main"
+neuronal-network = "neuronal_network:main"
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
