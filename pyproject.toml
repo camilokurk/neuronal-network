@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.15"
 dependencies = [
+    "nnfs>=0.5.1",
     "numpy>=2.5.4",
 ]
 

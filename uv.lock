@@ -7,11 +7,27 @@ name = "neuronal-network"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "nnfs" },
     { name = "numpy" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "numpy", specifier = ">=2.5.4" }]
+requires-dist = [
+    { name = "nnfs", specifier = ">=0.5.1" },
+    { name = "numpy", specifier = ">=2.5.4" },
+]
+
+[[package]]
+name = "nnfs"
+version = "0.5.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/64/9f/4cd73be57e0551dbc98adfd710eaba902372e04af8a15f1a8b08cffdfc2e/nnfs-0.5.1.tar.gz", hash = "sha256:7e1ba80bdfb89d9909758ba7546f1f73c5f6b58c1d5899649ac488c2a4833213", size = 5049, upload-time = "2020-08-21T02:57:17.856Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/06/8c/3003a41d5229e65da792331b060dcad8100a0a5b9760f8c2074cde864148/nnfs-0.5.1-py3-none-any.whl", hash = "sha256:fd04796da8e8f40a4dff9ad995a99944b8f0d68966d59e3e5d133659c7264c1f", size = 9145, upload-time = "2020-08-21T02:57:14.318Z" },
+]
 
 [[package]]
 name = "numpy"
